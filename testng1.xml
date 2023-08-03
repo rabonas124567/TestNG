@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Sanober Nazir/IdeaProjects/TesTNgBasic">
+        <classes>
+
+            <class name="class01.PrepostCondition2"/>
+            <class name="class01.PriorityAttribute2"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Sanober Nazir/IdeaProjects/TesTNgBasic">
+        <classes>
+            <class name="Paractic.practice1">
+                <methods>
+                    <include name="login"/>
+                    <include name="varifyText"/>
+                    <include name="signout"/>
+                </methods>
+            </class>
+            <class name="class01.EnablesDisables2">
+                <methods>
+                    <include name="validatedashboard"/>
+                    <include name="validatelogo"/>
+                    <include name="validatellogout"/>
+                    <include name="validlogin"/>
+                </methods>
+            </class>
+            <class name="class01.HardAssertion2">
+                <methods>
+                    <include name="validatedashboard"/>
+                    <include name="validatelogo"/>
+                    <include name="validatellogout"/>
+                    <include name="validlogin"/>
+                </methods>
+            </class>
+            <class name="class01.PrepostCondition2">
+                <methods>
+                    <include name="firstmethod"/>
+                    <include name="secondmethod"/>
+                </methods>
+            </class>
+            <class name="class01.PriorityAttribute2">
+                <methods>
+                    <include name="loginmethod"/>
+                    <include name="lauchbrowsermethod"/>
+                    <include name="navigatemethod"/>
+                    <include name="clasemethod"/>
+                </methods>
+            </class>
+            <class name="class01.TestSyntax2">
+                <methods>
+                    <include name="cethod1"/>
+                    <include name="bethod2"/>
+                    <include name="aethod3"/>
+                </methods>
+            </class>
+            <class name="class01.login2">
+                <methods>
+                    <include name="validatedashboard"/>
+                    <include name="validlogin"/>
+                </methods>
+            </class>
+            <class name="class2.AssertBoolean">
+                <methods>
+                    <include name="validlogin"/>
+                </methods>
+            </class>
+            <class name="class2.DependOn">
+                <methods>
+                    <include name="login"/>
+                    <include name="varifyText"/>
+                    <include name="signout"/>
+                </methods>
+            </class>
+            <class name="class2.SoftAssertion">
+                <methods>
+                    <include name="softassertionvalidaion"/>
+                </methods>
+            </class>
+            <class name="class2.SoftAssertion2">
+                <methods>
+                    <include name="validlogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,57 @@
+1.Go to      file->setting->plugins->searchbar and type(create)->from there install (TestNg XMLFile)
+then go to your project right click on it go to the bottom of of your list that appeard there is a option of (create TestNg XML)
+click on it will give you a pop up sign click on (OK) then again go to your project right click on it and go to the (Reload From
+The Disk) click on it it will give you the (testng.xml) option in the main menu click on it it will open then  press ( control+alt+l) it will give the whole
+project status all classes,methods names.
+
+                          SYNTAX OF TESTNG.XML FILE
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Sanober Nazir/IdeaProjects/TestNg">
+        <classes>
+  <class name="Paractic.practice1">
+                <methods>
+                    <include name="login"/>
+                    <include name="varifyText"/>
+                    <exclude name="signout"/>
+                    //you can use (exclude)to remove some method
+                </methods>
+            </class>
+ <class name="class1.EnablesDisabledAttribute">
+                <methods>
+                    <include name="validatedashboard"/>
+                    <include name="validatelogo"/>
+                    <include name="validatellogout"/>
+                    <include name="validlogin"/>
+                </methods>
+             </classes>
+    </test>
+</suite>
+
+======>If you massup with the syntax of TestNg.XML repeat the process from right click on your project and go the (create TestNG
+XML ) and repeat the remaining above process
+
+======>And if you want to keep the previous one just Refactor it and change the name with (.xml) extention and create the new
+one from the above mentioned process
+
+=======>You can create the TeatNG XML file  from any one class or any packacge to get only their methods you do not need to
+include the whole project classes and their packages and their methods just include what you want
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Sanober Nazir/IdeaProjects/TesTNgBasic">
+        <packages>
+                    <package name="class01"/>
+        </packages>
+    </test>
+</suite>
+
+and here you can run your your multiple classes
+
+2.If you want to copy the path of your google chrome press (shift)while the right clicking on the chrome file that you downloaded
+3.To get the searchbar on your HTML code from the websites press(control F ) for the X-PATHS and CSSSELECTOR
+4.Put (.txt) with your files in packages
